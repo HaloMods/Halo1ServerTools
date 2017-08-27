@@ -1,0 +1,53 @@
+------ Rebuild All started: Project: NativeWin32, Configuration: Debug .NET ------
+
+Preparing resources...
+Updating references...
+Performing main compilation...
+
+Build complete -- 0 errors, 0 warnings
+Building satellite assemblies...
+
+
+
+------ Rebuild All started: Project: HaloServerTools, Configuration: Debug .NET ------
+
+Preparing resources...
+Updating references...
+Performing main compilation...
+C:\Programming Projects\Personal\HaloServerTools\HaloServer\Scripting.cs(29,4): warning CS0162: Unreachable code detected
+c:\programming projects\personal\haloservertools\haloserver\webserver.cs(401,4): warning CS0162: Unreachable code detected
+c:\programming projects\personal\haloservertools\haloserver\haloserver.cs(21,38): warning CS0169: The private field 'HaloServerTools.HaloServer.proc' is never used
+c:\programming projects\personal\haloservertools\haloserver\serverextensions.cs(16,18): warning CS0169: The private field 'HaloServerTools.ServerExtensions.botTh' is never used
+
+Build complete -- 0 errors, 4 warnings
+Building satellite assemblies...
+
+
+
+------ Rebuild All started: Project: hst_console, Configuration: Debug .NET ------
+
+Preparing resources...
+Updating references...
+Performing main compilation...
+
+Build complete -- 0 errors, 0 warnings
+Building satellite assemblies...
+
+
+
+------ Rebuild All started: Project: hst_gui, Configuration: Debug .NET ------
+
+Preparing resources...
+Updating references...
+Performing main compilation...
+
+Build complete -- 0 errors, 0 warnings
+Building satellite assemblies...
+
+
+
+---------------------- Done ----------------------
+
+    Rebuild All: 4 succeeded, 0 failed, 0 skipped
+
+

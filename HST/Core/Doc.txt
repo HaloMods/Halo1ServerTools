@@ -1,0 +1,73 @@
+; Launches Process, closes when HST closed
+; TODO: Restructure, take out mointer code
+Process Manager
+
+; Reads all settings
+; ie, ban file path, halo ded path, ini path, etc
+; TODO: code it
+; NOTES: Use as static
+Settings Manager
+
+; Loads\Saves all special player (admins) data to file
+; and loads it. It also is the interface for getting any
+; players usage flags, and\or other junk I can't think of
+; at the moment
+; TODO: Code it
+; NOTES: Probably keep this as one class, and one file since
+; it would be a hasal putting the player data in the settings file
+Player Manager
+
+; Parses the halo ded server settings file (init.txt?) and
+; gets all the data needed for doing things like, dynamic
+; map cycles and displaying the next map at postgame
+; TODO: code it
+; NOTES: none
+Server Settings
+
+; ie, old HST's 'scripting' system
+; TODO: Go into more detail about the structure of it
+; NOTES:
+Command Interface
+
+; Interfaces the halo ded's memory to modify relativly anything
+; in the memory (ie, gamestate data, and map data)
+; TODO: code it
+; NOTES: suppa sweet
+Memory Interface
+
+; Monitors memory, and gathers data in memory via
+; 'Memory Interface'
+; TODO: code it
+; NOTES: Toatally seperate from 'Memory Interface'
+Memory Monitor
+
+; Track all players, game vars, current map, (not map cycle mb),
+; amount of time remaining in map, game type. Pretty much all game stuff
+; TODO: code it
+; NOTES: Uses log file and memory to gather info
+GameState Manager
+
+; Do what bungie did
+; TODO: 
+; NOTES:
+Game Stats
+
+; On certain events (player talked, player being an asshole, etc), it
+; triggers the C# code events that are linked to it and executes them
+; TODO: 
+; NOTES:
+LogFile Event System
+
+; Parses the log file and gathers an
+; TODO: 
+; NOTES:
+LogFile Interface
+
+; Self-explainitory
+; TODO: 
+LogFile Moniter
+
+; Has static WinAPI functions for interfacing with mainly the console
+; TODO: 
+; NOTES:
+Windows Interface

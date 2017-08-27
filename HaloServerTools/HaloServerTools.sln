@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloServerTools", "HaloServer\HaloServerTools.csproj", "{C2527DAE-3AB8-4B55-BB22-B779B55D426A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeWin32", "NativeWin32\NativeWin32.csproj", "{79B159D9-0A85-4884-8333-E01CFB36571D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hst_console", "hst_console\hst_console.csproj", "{332CDCCD-6AC9-46B7-9E63-C817448196AE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ScreenGrabber", "ScreenGrabber\ScreenGrabber.vbproj", "{EE6421A6-2C42-47C6-8A4B-E807722D84D9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HSTSetup", "HSTSetup\HSTSetup.vbproj", "{CD5871DA-4065-41CB-A011-EC735A2CCA7F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C2527DAE-3AB8-4B55-BB22-B779B55D426A}.Debug.ActiveCfg = Debug|.NET
+		{C2527DAE-3AB8-4B55-BB22-B779B55D426A}.Debug.Build.0 = Debug|.NET
+		{C2527DAE-3AB8-4B55-BB22-B779B55D426A}.Release.ActiveCfg = Release|.NET
+		{C2527DAE-3AB8-4B55-BB22-B779B55D426A}.Release.Build.0 = Release|.NET
+		{79B159D9-0A85-4884-8333-E01CFB36571D}.Debug.ActiveCfg = Debug|.NET
+		{79B159D9-0A85-4884-8333-E01CFB36571D}.Debug.Build.0 = Debug|.NET
+		{79B159D9-0A85-4884-8333-E01CFB36571D}.Release.ActiveCfg = Release|.NET
+		{79B159D9-0A85-4884-8333-E01CFB36571D}.Release.Build.0 = Release|.NET
+		{332CDCCD-6AC9-46B7-9E63-C817448196AE}.Debug.ActiveCfg = Debug|.NET
+		{332CDCCD-6AC9-46B7-9E63-C817448196AE}.Debug.Build.0 = Debug|.NET
+		{332CDCCD-6AC9-46B7-9E63-C817448196AE}.Release.ActiveCfg = Release|.NET
+		{332CDCCD-6AC9-46B7-9E63-C817448196AE}.Release.Build.0 = Release|.NET
+		{EE6421A6-2C42-47C6-8A4B-E807722D84D9}.Debug.ActiveCfg = Debug|.NET
+		{EE6421A6-2C42-47C6-8A4B-E807722D84D9}.Debug.Build.0 = Debug|.NET
+		{EE6421A6-2C42-47C6-8A4B-E807722D84D9}.Release.ActiveCfg = Release|.NET
+		{EE6421A6-2C42-47C6-8A4B-E807722D84D9}.Release.Build.0 = Release|.NET
+		{CD5871DA-4065-41CB-A011-EC735A2CCA7F}.Debug.ActiveCfg = Debug|.NET
+		{CD5871DA-4065-41CB-A011-EC735A2CCA7F}.Debug.Build.0 = Debug|.NET
+		{CD5871DA-4065-41CB-A011-EC735A2CCA7F}.Release.ActiveCfg = Release|.NET
+		{CD5871DA-4065-41CB-A011-EC735A2CCA7F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

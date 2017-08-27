@@ -1,0 +1,33 @@
+﻿<config>
+  <node_configuration>
+    <remoting_host>70.84.125.228</remoting_host>
+    <remoting_port>44782</remoting_port>
+  </node_configuration>
+  <server type="Game" server_id="1">
+    <customer_id>1342</customer_id>
+    <subtype>HaloCombatEvolved</subtype>
+    <display_name>EPGamers' Third Server</display_name>
+    <process_id>1</process_id>
+    <host>70.84.125.228</host>
+    <port>2302</port>
+    <datapath>c:\hive\node\installs\1-HaloCombatEvolved\profile</datapath>
+  </server>
+  <process process_id="1">
+    <folder>c:\hive\node\installs\1-HaloCombatEvolved</folder>
+    <filename>haloceded.exe</filename>
+    <parameters>-ip #host# -port #port# -path #datapath#</parameters>
+  </process>
+  <server type="Game" server_id="2">
+    <customer_id>1342</customer_id>
+    <subtype>HaloCombatEvolved</subtype>
+    <display_name>EPG Test Server</display_name>
+    <process_id>2</process_id>
+    <host>192.168.0.55</host>
+    <port>2302</port>
+  </server>
+  <process process_id="2">
+    <folder>D:\Program Files\Microsoft Games\HaloCE Server</folder>
+    <filename>haloceded.exe</filename>
+    <parameters>-ip #host# -port #port#</parameters>
+  </process>
+</config>

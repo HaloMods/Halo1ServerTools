@@ -1,0 +1,29 @@
+Contents:
+  * Code Namespace Descriptions
+  * Code File Descriptions
+
+
+Code Namespace Descriptions:
+'Halo' - Anything relating specificly to Halo
+'Interfaces' - Interface classes to anything. IE, Halo, Windows, etc.
+'Managers' - Manager classes for things like players, etc.
+'Monitoring' - Monitor classes for things like the log file, and memory
+
+
+Code File Descriptions:
+ - Core.Halo
+   * GameStats : 
+   * ServerSettings : 
+ - Core.Interfaces
+   * CommandInterface : 
+   * LogFileInterface : 
+   * MemoryInterface :
+   * Windows Interface : 
+ - Core.Managers 
+   * GameStateManager : 
+   * PlayerManager : 
+   * ProcessManager : 
+   * SettingsManager : 
+ - Monitoring
+   * LogFileMonitor : 
+   * MemoryMonitor : 
